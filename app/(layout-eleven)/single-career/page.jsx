@@ -1,5 +1,6 @@
 import JobDetails from "@/components/career-page/single/JobDetails";
 import BreadCrumb from "@/components/common/Breadcrumb";
+import Banner from "@/public/images/about/banner.jpg";
 import LogoSlider from "@/components/common/logo-slider";
 export const metadata = {
 	title: "Sofax || Responsive Next.js Template Single Carrer Page",
@@ -8,7 +9,7 @@ export const metadata = {
 function SingleCareerPage() {
 	return (
 		<>
-			<BreadCrumb title="UI/UX Designer" />
+			<BreadCrumb title="UI/UX Designer" bgImage={Banner} />
 			<JobDetails />
 			<LogoSlider light />
 		</>

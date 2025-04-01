@@ -1,5 +1,6 @@
 import LogoSlider from "@/components/career-page/logo-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
+import Banner from "@/public/images/about/banner.jpg";
 import dynamic from "next/dynamic";
 
 const Career = dynamic(() => import("@/components/career-page"), {
@@ -12,7 +13,7 @@ export const metadata = {
 function CareerPage() {
 	return (
 		<>
-			<BreadCrumb title="Career" />
+			<BreadCrumb title="Career" bgImage={Banner} />
 			<Career />
 			<LogoSlider />
 		</>
