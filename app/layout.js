@@ -27,8 +27,8 @@ import "../public/css/main.css";
 import "../public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "E-WebSolution",
-	description: "E-WebSolution",
+	title: "WebLabArts",
+	description: "WebLabArts",
 };
 export default function RootLayout({ children }) {
 	return (
